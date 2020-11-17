@@ -1,6 +1,6 @@
 {
   "name": "understudy.js",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "description": "A client-side API to automate web browsers",
   "repository": "github:DOSYCORPS/Understudy",
   "engines": {
