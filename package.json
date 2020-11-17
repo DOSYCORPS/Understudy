@@ -18,7 +18,7 @@
     "test-infra": "folio utils/doclint/check_public_api/test/test.js && folio utils/doclint/preprocessor/test.js",
     "lint": "npm run eslint && npm run tsc && npm run doc && npm run check-deps && npm run generate-channels && npm run test-types && npm run test-infra",
     "clean": "rimraf lib && rimraf types",
-    "prepare": "node install-from-github.js",
+    "removed-prepare": "node install-from-github.js",
     "build": "node utils/runWebpack.js --mode='development' && tsc -p . && npm run generate-types && npm run generate-api-json",
     "watch": "node utils/watch.js",
     "test-types": "npm run generate-types && npx -p typescript@3.7.5 tsc -p utils/generate_types/test/tsconfig.json && npm run typecheck-tests",
